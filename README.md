@@ -1,67 +1,55 @@
-# proyecto_integrador_redes
-Proyecto Integrador: Infraestructura de Red y Plataforma Empresarial
+#Integrative Project: Network Infrastructure and Enterprise Platform
 
-1.Descripción del proyecto
+1.Project Description
 
-Somos un grupo de estudiantes de Ingeniería en Sistemas de Información de la Universidad Internacional del Ecuador (UIDE). En este proyecto buscamos diseñar una solución tecnológica para una empresa que cuenta con dos sedes y necesita mejorar la comunicación entre sus trabajadores.
+We are a group of Information Systems Engineering students at Universidad Internacional del Ecuador (UIDE). In this project, we aim to design a technological solution for a company with two sites that needs to improve communication between its employees.
 
-Nuestra propuesta consiste en planificar una infraestructura de red que conecte ambas sedes, junto con una aplicación empresarial de chat interno y un servicio de autenticación para controlar el acceso de los usuarios.
+Our proposal is to plan a network infrastructure that connects both sites, together with an internal enterprise chat application and an authentication service to control user access.
 
-2.Objetivo
+2.Objective
 
-Diseñar una plataforma empresarial que permita la comunicación entre dos sedes, mantenga organizados los recursos de red y contemple medidas de seguridad para proteger la información.
+To design an enterprise platform that enables communication between two sites, keeps network resources organized, and includes security measures to protect information.
 
-3.Integrantes del grupo
+3.Team Members
 
-José Vaca: Coordinación general y planificación de la aplicación en Go.
+José Vaca: General coordination and planning of the Go application.
 
-Pedro Cañar: Investigación de redes e infraestructura, y seguridad y autenticación.
+Pedro Cañar: Research on networking and infrastructure, as well as security and authentication.
 
-Dehivid Salgado: Estadística, investigación y análisis social.
+Dehivid Salgado: Statistics, research, and social analysis.
 
-4.Tecnologías previstas
+4.Planned Technologies
 
-OpenWrt: administración de la infraestructura de red.
+OpenWrt: Network infrastructure management.
 
-VLAN: separación de los dispositivos por grupos.
+VLAN: Separation of devices into different groups.
 
-VLSM: distribución de direcciones IP según las necesidades de la red.
+VLSM: IP address allocation according to network requirements.
 
-OSPF: comunicación y aprendizaje de rutas entre las sedes.
+OSPF: Communication and route learning between the two sites.
 
-DHCP, NAT y firewall: servicios de red y controles de acceso.
+DHCP, NAT, and firewall: Network services and access controls.
 
-Go: desarrollo de la aplicación empresarial.
+Go: Development of the enterprise application.
 
-FastAPI: desarrollo del servicio de autenticación.
+FastAPI: Development of the authentication service.
 
-Git y GitHub: organización y seguimiento de los archivos del proyecto.
+Git and GitHub: Organization and tracking of project files.
 
-5.Estructura del repositorio
+5.Repository Structure
 
 proyecto-integrador-redes/
-├── app-go/
-├── auth-service/
-├── network/
-│   ├── diagrams/
-│   ├── configs/
-│   └── addressing/
-├── research/
-├── docs/
-└── README.md
+app-go/
+auth-service/
+network/
+diagrams/
+configs/
+addressing/
+research/
+docs/
+README.md
 
-6.Alcance actual
+6.Current Scope
 
-En la primera fase trabajamos en el contexto del problema, la planificación de la solución, la identificación de los usuarios y la distribución de responsabilidades. En las siguientes fases se desarrollarán la aplicación, la infraestructura y las pruebas correspondientes.
+In the first phase, we are working on the project context, solution planning, identification of users, and distribution of responsibilities. In the following phases, the application, network infrastructure, and corresponding tests will be developed.
 
-7.Institución
-
-Universidad: Universidad Internacional del Ecuador (UIDE).
-
-Carrera: Ingeniería en Sistemas de Información.
-
-Asignatura: Tecnología de Comunicación de Información de Red.
-
-Docente: Bryan Steven Vinueza Bustamante.
-
-Fecha de inicio del proyecto: 11 de octubre de 2026.
